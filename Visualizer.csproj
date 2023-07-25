@@ -17,11 +17,12 @@
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
       </Page>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="components\" />
-      <Folder Include="model\" />
+      <Page Update="views\libs\MyDictionary.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
+      <Page Update="views\components\MyUserControl.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
     </ItemGroup>
 
 </Project>
