@@ -17,10 +17,10 @@
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
       </Page>
-      <Page Update="views\libs\MyDictionary.xaml">
+      <Page Update="components\MyUserControl.xaml">
         <Generator>MSBuild:Compile</Generator>
       </Page>
-      <Page Update="views\components\MyUserControl.xaml">
+      <Page Update="libs\StaticValues.xaml">
         <Generator>MSBuild:Compile</Generator>
       </Page>
     </ItemGroup>

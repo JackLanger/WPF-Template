@@ -7,8 +7,9 @@
     xmlns:local="clr-namespace:Visualizer.components"
     mc:Ignorable="d"
     d:DesignHeight="300"
-    d:DesignWidth="300">
-    <Grid>
-        
-    </Grid>
+    d:DesignWidth="20"
+    Background="Transparent"
+    >
+    <Border Background="DodgerBlue" CornerRadius="7 7 0 0">
+    </Border>
 </UserControl>
