@@ -4,11 +4,9 @@
              xmlns:local="clr-namespace:Visualizer"
              StartupUri="views/MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary.MergedDictionaries>
-            <ResourceDictionary Source="libs/StaticValues.xaml"/>
-            <ResourceDictionary Source="libs/Colors.xaml"/>
-            <ResourceDictionary Source="libs/Fonts.xaml"/>
-            <ResourceDictionary Source="libs/CommonStyles.xaml"/>
-        </ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary x:Key="Static" Source="libs/StaticValues.xaml"/>
+        <ResourceDictionary x:Key="Colors" Source="libs/Colors.xaml"/>
+        <ResourceDictionary x:Key="Fonts" Source="libs/Fonts.xaml"/>
+        <ResourceDictionary x:Key="Common" Source="libs/CommonStyles.xaml"/>
     </Application.Resources>
 </Application>
